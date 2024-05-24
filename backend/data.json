@@ -1,0 +1,30 @@
+[
+    {
+        "task": "Portfolio",
+        "description": "Describe work through graphics"
+    },
+    {
+        "task": "Task1",
+        "description": "Create a To do App"
+    },
+    {
+        "task": "Final Task",
+        "description": "Make UI Better, Done"
+    },
+    {
+        "task": "H",
+        "description": "Hi\nHello"
+    },
+    {
+        "task": "pyxer | Find the right clothes with AI",
+        "description": "Easily find the right clothes with AI, don't search endlessly online or in a store. How it Works. Style and Shop through your own photos."
+    },
+    {
+        "task": "California",
+        "description": "California is a state in the Western United States, lying on the American Pacific Coast. It borders Oregon to the north, Nevada and Arizona to the east, and the Mexico to the south."
+    },
+    {
+        "task": "Final Task",
+        "description": "Submit the code: opportunities@pyxer.ai "
+    }
+]
