@@ -8,6 +8,7 @@ const baseURL = 'http://127.0.0.1:5000/todos';
 const App = () => {
   const [todos, setTodos] = useState([]);
 
+  // get initial list of todos 
   useEffect(() => {
     fetch(baseURL)
       .then(response => response.json())

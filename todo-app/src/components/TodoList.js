@@ -4,7 +4,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 const TodoList = ({ todos, updateTodo, deleteTodo }) => {
-  const [editIndex, setEditIndex] = useState(null);
+  const [editIndex, setEditIndex] = useState(null); //index of the currently edited item
   const [editTask, setEditTask] = useState('');
   const [editDescription, setEditDescription] = useState('');
 
@@ -17,9 +17,9 @@ const TodoList = ({ todos, updateTodo, deleteTodo }) => {
     setEditDescription(todos[index].description);
   };
 
-  const handleUpdate = (index) => {
+  const handleUpdate = (index) => { //Update or Cancel
     updateTodo(index, { task: editTask, description: editDescription });
-    setEditIndex(null);
+    setEditIndex(null); //reset to null after updating
     setEditTask('');
     setEditDescription('');
   };

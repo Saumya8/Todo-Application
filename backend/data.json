@@ -26,5 +26,13 @@
     {
         "task": "Final Task",
         "description": "Submit the code: opportunities@pyxer.ai "
+    },
+    {
+        "task": "Task mid",
+        "description": "Demo"
+    },
+    {
+        "task": "interview",
+        "description": "demo xyz"
     }
 ]
