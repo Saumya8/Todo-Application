@@ -3,7 +3,8 @@ import { Container, Typography, Box, Paper } from '@mui/material';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
-const baseURL = 'http://127.0.0.1:5000/todos';
+// const baseURL = 'http://127.0.0.1:5000/todos';
+const baseURL = 'http://0.0.0.0:5000/todos';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
